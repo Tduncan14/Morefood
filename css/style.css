@@ -42,7 +42,7 @@ a{
     justify-content:space-between;
     background:transparent;
     z-index:1000;
-    padding:28px 15%;
+    padding:28px 10%;
     transition: all .8s ease;
 }
 
@@ -61,4 +61,36 @@ a{
     font-weight:500;
     color:var(--text-color);
     transition:all .8s ease;
+}
+
+.navlinks a:hover{
+    color:var(--main-color);
+}
+
+
+.right-h{
+    display:flex;
+    align-items:center;
+}
+
+.btn-r{
+    display:inline-block;
+    padding:12px 28px;
+    color:var(--second-color);
+    background:var(--text-color);
+    border-width:1px 3px 3px 1;
+    border-style:solid;
+    border-color:var(--main-color);
+    border-radius:30px;
+    margin:0 25px;
+    font-size:var(--p-font);
+    font-weight:400;
+    transition:all .7s ease;
+}
+
+
+.btn-r:hover{
+    color:var(--main-color);
+    transform:scale(1.1);
+    transform:translateY(-5px);
 }
